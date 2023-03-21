@@ -33,4 +33,5 @@ cordova platform add android
 cordova requirements
 cordova run android
 cordova run browser
+cordova build
 ```
