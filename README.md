@@ -6,8 +6,8 @@ android dev install
 ### android sdk
 
 ```sh
-snap install androidsdk
-androidsdk 'system-images;android-30;default;x86_64' platform-tools 'cmdline-tools;latest' 'build-tools;30.0.3' emulator 'platforms;android-30'
+# install sdkmanager from https://developer.android.google.cn/studio/command-line/sdkmanager
+sdkmanager 'system-images;android-30;default;x86_64' platform-tools 'cmdline-tools;latest' 'build-tools;30.0.3' emulator 'platforms;android-30'
 avdmanager create avd -n test -k 'system-images;android-30;default;x86_64'
 emulator -avd test
 ```
